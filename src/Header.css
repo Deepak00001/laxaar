@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+  }
+  
+  .header{
+    width: 100%;
+    height: 90px;
+    background-color: #3450F3;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between ;
+  }
+  .imglogo{
+    width: 90px;
+    height: 90px;
+    margin-left: 20px;
+  }
+  .hone{
+    margin: 20px 10px;
+    color: white;
+    font-weight: bolder;
+    /* text-shadow: 1px 2px 2px; */
+  }
+  .footer{
+
+    text-align: center;
+    font-size: 14px;
+  }
+
+
+
+
+
+
+
+  .main_note{
+    height: 500px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+  
+  
+  }
+  .main_note form {
+    position: relative;
+    top: -110px;
+    left: 500px;
+    box-shadow: 1px 1px 8px black;
+    border-radius: 8px;
+  }
+  
+  
+  .main_note input{
+    height: 40px;
+    width: 500px;
+    border-style: none;
+    outline: none;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px;
+  }
+  .main_note textarea{
+    height: 80px;
+    width: 500px;
+    border-style: none;
+    outline: none;
+    margin: 10px;
+    font-size: 20px;
+  }
+  .main_note Button{
+    height: 50px;
+    width: 50px;
+    float: right;
+  }
+  .main_note Button:hover{
+    background-color: #3450F3;
+    color: white;
+    
+  }
+  .main_note .plus_sign{
+    color:#3450F3 ;
+    height: 50px;
+    width: 50px;
+  }
+  .main_note .plus_sign:hover{
+    color: white;
+  }
+  .notess{
+    display: flex;
+    flex-direction: row;
+    margin-top: -120px;
+  }
+  .note{
+    margin-bottom: 20px;
+    margin-left: 40px;
+    box-shadow: 1px 1px 8px black;
+    height: 200px;
+    width: 200px;
+    border-radius: 8px;
+  }
+  
+  .note h1{
+    height: 40px;
+    width: 200px;
+    border-style: none;
+    outline: none;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px;
+  }
+  .note p{
+    height: 80px;
+    width: 200px;
+    border-style: none;
+    outline: none;
+    margin-left: 5px;
+    font-size: 20px;
+  }
+  .note Button{
+    height: 30px;
+    width: 30px;
+    float: right;
+    outline: none;
+    border-style: none;
+  }
+  
+  .note Button:hover{
+    background-color: maroon;
+    color: white;
+  }
+  .notecontainer{
+    display: flex;
+    flex-direction: row;
+  }
+  
